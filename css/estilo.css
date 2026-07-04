@@ -16,6 +16,22 @@ body {
   background: #000;
 }
 
+.footer-flores {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  pointer-events: none;
+  line-height: 0;
+}
+
+.footer-flores img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .tangerine-regular {
   font-family: "Tangerine", cursive;
   font-weight: 400;

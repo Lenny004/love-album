@@ -39,13 +39,10 @@ body {
 
 @media (min-width: 768px) {
   .grid {
-    gap: 1rem;
-    padding: 1rem;
-    margin: 5rem auto;
-    grid-template-columns: repeat(4, 9.5rem);
-    justify-content: center;
-    width: fit-content;
-    max-width: 100%;
+    gap: 6rem;
+    padding: 5rem;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
     align-content: start;
   }
 

@@ -26,6 +26,8 @@ body {
 }
 
 .grid {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   position: relative;
   z-index: 2;
   display: grid;

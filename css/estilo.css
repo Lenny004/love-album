@@ -27,17 +27,25 @@ body {
 .casilla {
   aspect-ratio: 1;
   background: #111;
+  overflow: hidden;
+}
+
+.casilla img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
   .grid {
     gap: 1rem;
     padding: 1rem;
-    grid-template-columns: repeat(4, 7.5rem);
+    margin: 5rem auto;
+    grid-template-columns: repeat(4, 9.5rem);
     justify-content: center;
     width: fit-content;
     max-width: 100%;
-    margin-inline: auto;
     align-content: start;
   }
 
